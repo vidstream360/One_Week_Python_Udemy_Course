@@ -5,3 +5,4 @@ ageindays = float(ageinyears) * 365
 #print(ageindays)
 
 print(f"you are {ageindays} days old")
+print(f"{ageinyears} years is {ageindays} days old")
