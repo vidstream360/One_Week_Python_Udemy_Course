@@ -35,7 +35,7 @@ if num == 1:
 elif num == 2:
     comp_move = "paper"
 elif num == 3:
-    comp_mov = "scissors"
+    comp_move = "scissors"
 
 # Ask a user to enter their move
 player_move = input("enter your move (rock, paper, scissors)").lower()
