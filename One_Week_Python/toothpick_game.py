@@ -2,6 +2,7 @@
 #ask for player names
 
 #Game loop, until someone wins
+#use while true loop 
 #ask palyer to enter number
 #check to see if they win
 
