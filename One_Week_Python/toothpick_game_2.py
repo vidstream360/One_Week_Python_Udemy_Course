@@ -2,12 +2,15 @@
 #ask for player names
 
 #Game loop, until someone wins
+#use while true loop 
 #limit player to 1, 2 or 3 takes
 #ask player to enter number
 #check to see if they win
 
 #ask player2 to enter number
 #check to see if they win
+
+#use break and if to alternate
 
 print("Welcome To The Game!")
 print("********************")
