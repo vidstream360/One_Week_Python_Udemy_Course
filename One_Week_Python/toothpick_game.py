@@ -1,3 +1,14 @@
+#pick up sticks game
+#ask for player names
+
+#Game loop, until someone wins
+#ask palyer to enter number
+#check to see if they win
+
+#ask player2 to enter number
+#check to see if they win
+
+
 print("Welcome To The Game!")
 print("********************")
 num_left = 13
