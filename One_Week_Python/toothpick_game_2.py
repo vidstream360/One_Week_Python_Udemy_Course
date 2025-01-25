@@ -3,7 +3,7 @@
 
 #Game loop, until someone wins
 #limit player to 1, 2 or 3 takes
-#ask palyer to enter number
+#ask player to enter number
 #check to see if they win
 
 #ask player2 to enter number
