@@ -1,3 +1,4 @@
+#in list demo
 #common pattern of check in a variable is in or not in a list
 
 flavors = ["chocolate", "vanilla", "lemon", "strawberry"]
