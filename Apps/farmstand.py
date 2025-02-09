@@ -7,13 +7,15 @@ prices = {
     "fennel" : 3.36,
 }
 
+#example using in
 #product = input("What product are you buying? ")
 #if product in prices:
-#    price = prices[product]
+#   price = prices[product]
 #   print(f"{product} is ${price}")
 #else:
 #    print("Sorry, we dont have that product today.")
 
+#example using .get()
 product = input("What product are you buying? ")
 price = prices.get(product)
 if price:
