@@ -1,4 +1,4 @@
-#example of a nested list
+#example of a nested dict
 
 prices = {
     "arugala" : 1.15,
