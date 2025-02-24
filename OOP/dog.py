@@ -5,14 +5,14 @@
 #first will refer to an instance of the class
 
 class Dog:
-    def __init__(self, name, breed, location):
+    def __init__(self, name, breed, location):  #attributes
         self.name = name
         self.breed = breed
         self.location = location
         self.tricks = []
 
     def bark(self):
-        print(f"{self.name} says WOOF!")
+        print(f"{self.name} says WOOF!")         #methods
 
     def eat(self):
         print("NOM NOM!")
