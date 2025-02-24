@@ -5,16 +5,20 @@
 #first will refer to an instance of the class
 
 class Dog:
-    def __init__(self, name, breed, location):  #attributes
+    def __init__(self, name, breed, location):  # class with attributes
         self.name = name
         self.breed = breed
         self.location = location
         self.tricks = []
 
-    species = 'canine' #can add attributes this way
+    species = 'canine' #can add non instance attributes this way
+
+    @classmethod             #class methods executed on the class themselves, not instances
+    def register_stray(cls): 
+        return cls('coming soon', 'unknow', 'unkown')
     
     def bark(self):
-        print(f"{self.name} says WOOF!")         #methods
+        print(f"{self.name} says WOOF!")         #methods act on instances
 
     def eat(self):
         print("NOM NOM!")
@@ -36,3 +40,5 @@ elton.learn_trick('stay')
 jimbo = Dog('jimbo', 'mutt', 97236)
 jimbo.learn_trick('sit')
 jimbo.learn_trick('stay')
+
+
