@@ -11,6 +11,8 @@ class Dog:
         self.location = location
         self.tricks = []
 
+    species = 'canine' #can add attributes this way
+    
     def bark(self):
         print(f"{self.name} says WOOF!")         #methods
 
