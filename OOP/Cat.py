@@ -33,7 +33,7 @@ print(lion.roar())
 class Tiger(Cat):
     def __init__(self, name, pride_name):
         print("INSIDE TIGER INIT")
-        super().__init__(name)
+        super().__init__(name)     #super makes python find the super class, in this case cat
         self.pride_name = pride_name
     def roar(self):
         print(f"{self.name} roars")
